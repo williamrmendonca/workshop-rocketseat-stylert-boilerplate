@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* StylertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StylertTests.m */; };
+		0459A37D01F9B64FB606D25E /* libPods-Stylert-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 124A797D5E8F7C3FC0BC6E8D /* libPods-Stylert-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1D1925D16924EA4217691644 /* libPods-Stylert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FF72CDCB431B81C421DBD5 /* libPods-Stylert.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* StylertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StylertTests.m */; };
-		40E0712F4D0115C69D4D82A2 /* libPods-Stylert-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10BF8E6DEF91990139C688F8 /* libPods-Stylert-tvOS.a */; };
-		6118ABD62A2FE13B1BAC21D5 /* libPods-Stylert-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 859976E2855ABBB1DDE5153C /* libPods-Stylert-tvOSTests.a */; };
 		6AEE8B4434FC44968C0FA4BB /* BigShouldersText-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73DE88FAA882451A91393F9B /* BigShouldersText-Light.ttf */; };
+		79D78E9A0B0EDB05E9B15212 /* libPods-Stylert-StylertTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E230EE661F0EA6F61FFE427E /* libPods-Stylert-StylertTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		81B3F759E710DCD552F4B64B /* libPods-Stylert-StylertTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC40AF8F6FD5C2883E207DCD /* libPods-Stylert-StylertTests.a */; };
+		AEDBC0F42111BB8475ED34BF /* libPods-Stylert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D20B3BAB0DFEFE48389B38 /* libPods-Stylert.a */; };
+		BF0EBC55E94EFC4CEA844E62 /* libPods-Stylert-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF5DD0BE7B9FEAA3FCC1ACF /* libPods-Stylert-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,8 @@
 		00E356EE1AD99517003FC87E /* StylertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StylertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* StylertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StylertTests.m; sourceTree = "<group>"; };
-		10BF8E6DEF91990139C688F8 /* libPods-Stylert-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F7D017DC2D2CFCFB2ED578D /* Pods-Stylert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert.debug.xcconfig"; path = "Target Support Files/Pods-Stylert/Pods-Stylert.debug.xcconfig"; sourceTree = "<group>"; };
+		124A797D5E8F7C3FC0BC6E8D /* libPods-Stylert-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* Stylert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stylert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Stylert/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Stylert/AppDelegate.m; sourceTree = "<group>"; };
@@ -54,21 +55,20 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Stylert/main.m; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Stylert-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stylert-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Stylert-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stylert-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		36FF72CDCB431B81C421DBD5 /* libPods-Stylert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F2E6ABB73668BCEA4C11244 /* Pods-Stylert-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOS/Pods-Stylert-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		40D507C4F51727962395F18A /* Pods-Stylert-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOSTests/Pods-Stylert-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		46A50E0D48299950E836D6DA /* Pods-Stylert-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOS/Pods-Stylert-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		614765DAB84864504A0B0FB4 /* Pods-Stylert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert.release.xcconfig"; path = "Target Support Files/Pods-Stylert/Pods-Stylert.release.xcconfig"; sourceTree = "<group>"; };
+		3377CFD75ECB0F4834E4F24A /* Pods-Stylert-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOS/Pods-Stylert-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3BF5DD0BE7B9FEAA3FCC1ACF /* libPods-Stylert-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62A022B1376386621C929775 /* Pods-Stylert-StylertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-StylertTests.release.xcconfig"; path = "Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests.release.xcconfig"; sourceTree = "<group>"; };
 		73DE88FAA882451A91393F9B /* BigShouldersText-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "BigShouldersText-Light.ttf"; path = "../src/assets/fonts/BigShouldersText-Light.ttf"; sourceTree = "<group>"; };
+		744319EAE1073FFDBF3E07A8 /* Pods-Stylert-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOS/Pods-Stylert-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		80CA40D359D507724189B9BB /* Pods-Stylert-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOSTests/Pods-Stylert-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Stylert/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		859976E2855ABBB1DDE5153C /* libPods-Stylert-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92B2EE05313391E28E4A3C72 /* Pods-Stylert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert.debug.xcconfig"; path = "Target Support Files/Pods-Stylert/Pods-Stylert.debug.xcconfig"; sourceTree = "<group>"; };
-		AC40AF8F6FD5C2883E207DCD /* libPods-Stylert-StylertTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert-StylertTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEB6452D3B630A271B115D8D /* Pods-Stylert-StylertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-StylertTests.debug.xcconfig"; path = "Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E67F9376CFF599AF0C889509 /* Pods-Stylert-StylertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-StylertTests.release.xcconfig"; path = "Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests.release.xcconfig"; sourceTree = "<group>"; };
+		96A42ED5F43EF3C0004F7678 /* Pods-Stylert-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOSTests/Pods-Stylert-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0683667CFE2A218B1417F0 /* Pods-Stylert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert.release.xcconfig"; path = "Target Support Files/Pods-Stylert/Pods-Stylert.release.xcconfig"; sourceTree = "<group>"; };
+		DE70FF55E786014223F0E2A5 /* Pods-Stylert-StylertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-StylertTests.debug.xcconfig"; path = "Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1D20B3BAB0DFEFE48389B38 /* libPods-Stylert.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E230EE661F0EA6F61FFE427E /* libPods-Stylert-StylertTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Stylert-StylertTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FD3D3D5CD4518BF805283457 /* Pods-Stylert-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stylert-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Stylert-tvOSTests/Pods-Stylert-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81B3F759E710DCD552F4B64B /* libPods-Stylert-StylertTests.a in Frameworks */,
+				79D78E9A0B0EDB05E9B15212 /* libPods-Stylert-StylertTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D1925D16924EA4217691644 /* libPods-Stylert.a in Frameworks */,
+				AEDBC0F42111BB8475ED34BF /* libPods-Stylert.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40E0712F4D0115C69D4D82A2 /* libPods-Stylert-tvOS.a in Frameworks */,
+				0459A37D01F9B64FB606D25E /* libPods-Stylert-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6118ABD62A2FE13B1BAC21D5 /* libPods-Stylert-tvOSTests.a in Frameworks */,
+				BF0EBC55E94EFC4CEA844E62 /* libPods-Stylert-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,12 +143,28 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				36FF72CDCB431B81C421DBD5 /* libPods-Stylert.a */,
-				AC40AF8F6FD5C2883E207DCD /* libPods-Stylert-StylertTests.a */,
-				10BF8E6DEF91990139C688F8 /* libPods-Stylert-tvOS.a */,
-				859976E2855ABBB1DDE5153C /* libPods-Stylert-tvOSTests.a */,
+				E1D20B3BAB0DFEFE48389B38 /* libPods-Stylert.a */,
+				E230EE661F0EA6F61FFE427E /* libPods-Stylert-StylertTests.a */,
+				124A797D5E8F7C3FC0BC6E8D /* libPods-Stylert-tvOS.a */,
+				3BF5DD0BE7B9FEAA3FCC1ACF /* libPods-Stylert-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ED525DD1AEF705EF14BEEB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F7D017DC2D2CFCFB2ED578D /* Pods-Stylert.debug.xcconfig */,
+				AB0683667CFE2A218B1417F0 /* Pods-Stylert.release.xcconfig */,
+				DE70FF55E786014223F0E2A5 /* Pods-Stylert-StylertTests.debug.xcconfig */,
+				62A022B1376386621C929775 /* Pods-Stylert-StylertTests.release.xcconfig */,
+				744319EAE1073FFDBF3E07A8 /* Pods-Stylert-tvOS.debug.xcconfig */,
+				3377CFD75ECB0F4834E4F24A /* Pods-Stylert-tvOS.release.xcconfig */,
+				96A42ED5F43EF3C0004F7678 /* Pods-Stylert-tvOSTests.debug.xcconfig */,
+				80CA40D359D507724189B9BB /* Pods-Stylert-tvOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -167,7 +183,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				D34757966A524FFB84C5FBE2 /* Resources */,
-				AF243A152A6AC670BA18E0EA /* Pods */,
+				3ED525DD1AEF705EF14BEEB7 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -183,22 +199,6 @@
 				2D02E4901E0B4A5D006451C7 /* Stylert-tvOSTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		AF243A152A6AC670BA18E0EA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				92B2EE05313391E28E4A3C72 /* Pods-Stylert.debug.xcconfig */,
-				614765DAB84864504A0B0FB4 /* Pods-Stylert.release.xcconfig */,
-				DEB6452D3B630A271B115D8D /* Pods-Stylert-StylertTests.debug.xcconfig */,
-				E67F9376CFF599AF0C889509 /* Pods-Stylert-StylertTests.release.xcconfig */,
-				46A50E0D48299950E836D6DA /* Pods-Stylert-tvOS.debug.xcconfig */,
-				3F2E6ABB73668BCEA4C11244 /* Pods-Stylert-tvOS.release.xcconfig */,
-				FD3D3D5CD4518BF805283457 /* Pods-Stylert-tvOSTests.debug.xcconfig */,
-				40D507C4F51727962395F18A /* Pods-Stylert-tvOSTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		D34757966A524FFB84C5FBE2 /* Resources */ = {
@@ -217,11 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "StylertTests" */;
 			buildPhases = (
-				EBCEE73C799DDBDD898FC4D0 /* [CP] Check Pods Manifest.lock */,
+				1DF9E24EF68705D9DE03C685 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				4A4E581ECFEEA5D354C27C8E /* [CP] Copy Pods Resources */,
+				5A2DEA194979CC01534C9C12 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,13 +237,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Stylert" */;
 			buildPhases = (
-				6C90114B8315C5411C687C1C /* [CP] Check Pods Manifest.lock */,
+				BE9944968ADFC6A829829D2D /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				987CE846B36245FAD4832ACA /* [CP] Copy Pods Resources */,
+				E9EA2AC92350604CC92C707F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,7 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Stylert-tvOS" */;
 			buildPhases = (
-				C14727AE4173826AEA00E845 /* [CP] Check Pods Manifest.lock */,
+				B5808B3FD985C34442E7E9BA /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -278,7 +278,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Stylert-tvOSTests" */;
 			buildPhases = (
-				5F491F2FD470400EF4B3E134 /* [CP] Check Pods Manifest.lock */,
+				15F5BC7D5F71C497995CE0A3 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -390,39 +390,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		4A4E581ECFEEA5D354C27C8E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5F491F2FD470400EF4B3E134 /* [CP] Check Pods Manifest.lock */ = {
+		15F5BC7D5F71C497995CE0A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,7 +412,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6C90114B8315C5411C687C1C /* [CP] Check Pods Manifest.lock */ = {
+		1DF9E24EF68705D9DE03C685 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -459,20 +427,34 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Stylert-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Stylert-StylertTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		987CE846B36245FAD4832ACA /* [CP] Copy Pods Resources */ = {
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Stylert/Pods-Stylert-resources.sh",
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5A2DEA194979CC01534C9C12 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -481,10 +463,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stylert/Pods-Stylert-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stylert-StylertTests/Pods-Stylert-StylertTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C14727AE4173826AEA00E845 /* [CP] Check Pods Manifest.lock */ = {
+		B5808B3FD985C34442E7E9BA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -506,7 +488,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EBCEE73C799DDBDD898FC4D0 /* [CP] Check Pods Manifest.lock */ = {
+		BE9944968ADFC6A829829D2D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -521,11 +503,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Stylert-StylertTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Stylert-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9EA2AC92350604CC92C707F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stylert/Pods-Stylert-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stylert/Pods-Stylert-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -621,7 +621,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DEB6452D3B630A271B115D8D /* Pods-Stylert-StylertTests.debug.xcconfig */;
+			baseConfigurationReference = DE70FF55E786014223F0E2A5 /* Pods-Stylert-StylertTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -644,7 +644,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E67F9376CFF599AF0C889509 /* Pods-Stylert-StylertTests.release.xcconfig */;
+			baseConfigurationReference = 62A022B1376386621C929775 /* Pods-Stylert-StylertTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -664,7 +664,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92B2EE05313391E28E4A3C72 /* Pods-Stylert.debug.xcconfig */;
+			baseConfigurationReference = 0F7D017DC2D2CFCFB2ED578D /* Pods-Stylert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -687,7 +687,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 614765DAB84864504A0B0FB4 /* Pods-Stylert.release.xcconfig */;
+			baseConfigurationReference = AB0683667CFE2A218B1417F0 /* Pods-Stylert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -708,7 +708,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46A50E0D48299950E836D6DA /* Pods-Stylert-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 744319EAE1073FFDBF3E07A8 /* Pods-Stylert-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -736,7 +736,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F2E6ABB73668BCEA4C11244 /* Pods-Stylert-tvOS.release.xcconfig */;
+			baseConfigurationReference = 3377CFD75ECB0F4834E4F24A /* Pods-Stylert-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -764,7 +764,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD3D3D5CD4518BF805283457 /* Pods-Stylert-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 96A42ED5F43EF3C0004F7678 /* Pods-Stylert-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -791,7 +791,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 40D507C4F51727962395F18A /* Pods-Stylert-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 80CA40D359D507724189B9BB /* Pods-Stylert-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
